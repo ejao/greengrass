@@ -14,6 +14,7 @@
 		22A075851F7891A600FFA4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A075831F7891A600FFA4BB /* LaunchScreen.storyboard */; };
 		22A075901F7891A600FFA4BB /* showgrow_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0758F1F7891A600FFA4BB /* showgrow_mobileTests.swift */; };
 		22A0759B1F7891A600FFA4BB /* showgrow_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0759A1F7891A600FFA4BB /* showgrow_mobileUITests.swift */; };
+		22A075A91F78F32100FFA4BB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A075A81F78F32100FFA4BB /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22A075961F7891A600FFA4BB /* showgrow-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "showgrow-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A0759A1F7891A600FFA4BB /* showgrow_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showgrow_mobileUITests.swift; sourceTree = "<group>"; };
 		22A0759C1F7891A600FFA4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A075A81F78F32100FFA4BB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "showgrow-mobile/MenuViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		22A0756E1F7891A600FFA4BB = {
 			isa = PBXGroup;
 			children = (
+				22A075A81F78F32100FFA4BB /* MenuViewController.swift */,
 				22A075791F7891A600FFA4BB /* showgrow-mobile */,
 				22A0758E1F7891A600FFA4BB /* showgrow-mobileTests */,
 				22A075991F7891A600FFA4BB /* showgrow-mobileUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A0757D1F7891A600FFA4BB /* ViewController.swift in Sources */,
+				22A075A91F78F32100FFA4BB /* MenuViewController.swift in Sources */,
 				22A0757B1F7891A600FFA4BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		22A075831F7891A600FFA4BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
